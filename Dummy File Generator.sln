@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFGenerator", "DFGenerator\DFGenerator.csproj", "{B836CA08-FA9D-45EC-9A82-1619ED18B163}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{101E1148-E52F-4D9C-A76F-FB7578D9192C}"
+	ProjectSection(SolutionItems) = preProject
+		DummyFiles\DummyFiles.zip = DummyFiles\DummyFiles.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DFGenerator|Any CPU = DFGenerator|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Dummy File Generator (DFG) is a program that allows you to replicate a directory structure containing sensitive files but replacing the sensitive files with dummy files of your choice.
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B836CA08-FA9D-45EC-9A82-1619ED18B163}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{B836CA08-FA9D-45EC-9A82-1619ED18B163}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{B836CA08-FA9D-45EC-9A82-1619ED18B163}.DFGenerator|Any CPU.ActiveCfg = Debug|Any CPU
+		{B836CA08-FA9D-45EC-9A82-1619ED18B163}.DFGenerator|Any CPU.Build.0 = Debug|Any CPU
+		{B836CA08-FA9D-45EC-9A82-1619ED18B163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B836CA08-FA9D-45EC-9A82-1619ED18B163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06C48185-0125-4BC3-9CA0-1FD7BF433CCB}
+	EndGlobalSection
+EndGlobal
