@@ -12,7 +12,7 @@ Dummy File Generator (DFG) is a program that allows you to replicate a directory
 
 The purpose of DFG is to cater for those situations in which you are working with a vendor or on a development team (pre-production) and prefer to (or have a requirement to) have dummy files being handed over rather than sensitive files.
 
-You may be prohibited from providing actual files because the files contain sensitive data such as GDPR, or top-secret documents. Experimenting with (or distributing) actual files may be illegal or against organizational policy. Pen drives have been forgotten on trains!!!!
+You may be prohibited from providing actual files because the files contain sensitive data such as GDPR, HIPPA, or secret documents. Experimenting with (or distributing) actual files may be illegal or against organizational policy. Pen drives have been forgotten on trains!!!!
 
 With DFG you can provide third parties with an exact replica of the sensitive directory (respecting file names, etc) but replacing with actual data with DUMMY data.
 
@@ -87,6 +87,10 @@ The files within the folder can be files that are readable by the application th
 
 Feedback and further development
 
-The source code of this solution are available on
+The source code of this solution are available on GitHub (<a href="https://github.com/chribonn/DFGenerator">https://github.com/chribonn/DFGenerator</a>).
+
+While you can easily generate your own dummy files, a zip archive is available to get you started.
+
+Email me new features requests and, after evaluation, will group them when I update the code.
 
 </div>

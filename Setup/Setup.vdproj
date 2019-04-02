@@ -27,7 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7E59B933C1104514A46A0578DBD681EC"
+        "MsmKey" = "8:_4012D5423409402EAAFB5615EC2D81F0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,13 +46,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9B6117C8A0923A511A2E882FACAF9414"
+        "OwnerKey" = "8:_E656F79AD6D944ECBEEF36157C7C172A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E656F79AD6D944ECBEEF36157C7C172A"
+        "OwnerKey" = "8:_9B6117C8A0923A511A2E882FACAF9414"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -73,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -89,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -158,7 +174,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7E59B933C1104514A46A0578DBD681EC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4012D5423409402EAAFB5615EC2D81F0"
             {
             "SourcePath" = "8:..\\DummyFiles\\DFG.ico"
             "TargetName" = "8:DFG.ico"
@@ -247,17 +263,6 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_1110A9D066FE42969AD13181C54B9C94"
-                    {
-                    "Name" = "8:DFGenerator"
-                    "AlwaysCreate" = "11:TRUE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_ED7FFD58A98F4D18B5DC3420D695C5AC"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
         }
@@ -275,7 +280,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup"
+        "ProductName" = "8:DFG"
         "ProductCode" = "8:{28AB0D78-CD29-4231-98E7-10EBBDD0311E}"
         "PackageCode" = "8:{DB19AF7C-2C2F-43B5-B7A4-56B70D375547}"
         "UpgradeCode" = "8:{EB2F5FEE-E1BB-4742-99F1-83594EE841C8}"
@@ -285,16 +290,16 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Alan Bonnici"
+        "Manufacturer" = "8:chribonn"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup"
+        "Title" = "8:DFG Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Alan Bonnici"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Setup for Dummy File Generator"
         "ARPURLINFOABOUT" = "8:https://github.com/chribonn/DFGenerator/wiki"
-        "ARPPRODUCTICON" = "8:_7E59B933C1104514A46A0578DBD681EC"
+        "ARPPRODUCTICON" = "8:_4012D5423409402EAAFB5615EC2D81F0"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -397,31 +402,45 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B5D064DAA05F49268B394881BCBDBC63"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_209937D71FCF48239933E7F257249C7E"
             {
-            "Name" = "8:Dummy File Generator"
+            "Name" = "8:DFGenerator"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
+            "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_82FF4E2BC0AA467FB124B25274B39112"
+            "Target" = "8:_E656F79AD6D944ECBEEF36157C7C172A"
             "Folder" = "8:_82FF4E2BC0AA467FB124B25274B39112"
-            "WorkingFolder" = "8:_82FF4E2BC0AA467FB124B25274B39112"
-            "Icon" = "8:"
+            "WorkingFolder" = "8:_7AE866055D2B4253BD4AB52F2553F385"
+            "Icon" = "8:_E656F79AD6D944ECBEEF36157C7C172A"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F5C2071B5258413BA60DF3137D38CBE9"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_67BCC057F7524D75A0AF141DEBE01B27"
             {
-            "Name" = "8:Dummy File Generator"
+            "Name" = "8:DFGenerator"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:32512"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_E656F79AD6D944ECBEEF36157C7C172A"
+            "Folder" = "8:_89610E8C207845D58E281429B8242959"
+            "WorkingFolder" = "8:_7AE866055D2B4253BD4AB52F2553F385"
+            "Icon" = "8:_E656F79AD6D944ECBEEF36157C7C172A"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_86352DF718934164AA8C7F5E16CFEA6A"
+            {
+            "Name" = "8:Shortcut to DummyFiles.zip"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_1110A9D066FE42969AD13181C54B9C94"
-            "Folder" = "8:_1110A9D066FE42969AD13181C54B9C94"
-            "WorkingFolder" = "8:_89610E8C207845D58E281429B8242959"
+            "Target" = "8:_105558FF75604AA28898AFB91120B355"
+            "Folder" = "8:_89610E8C207845D58E281429B8242959"
+            "WorkingFolder" = "8:_7AE866055D2B4253BD4AB52F2553F385"
             "Icon" = "8:"
             "Feature" = "8:"
             }
@@ -836,7 +855,7 @@
             "ReadOnly" = "11:FALSE"
             "Hidden" = "11:FALSE"
             "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
+            "Permanent" = "11:TRUE"
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
