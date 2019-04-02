@@ -28,6 +28,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DFG_files", "DFG_files", "{
 		Documentation\DFG_files\image006.PNG = Documentation\DFG_files\image006.PNG
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{702661C0-8A8A-449E-B754-9C0D39ED2666}"
+	ProjectSection(SolutionItems) = preProject
+		Release\20190402 - Release.zip = Release\20190402 - Release.zip
+		Release\ReadMe.txt = Release\ReadMe.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
